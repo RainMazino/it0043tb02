@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cayabyab_TSA2</title>
+  </head>
+  <body background="backgroundtsa2.jpg" marginwidth="200px">
+    <img
+      src="https://upload.wikimedia.org/wikipedia/en/6/62/FEU_Tech_official_seal.png"
+      alt=""
+      height="130px"
+    />
+    <font face="Calibri"
+      ><center>
+        <font color="red" size="7"><h1>ADVISORY</h1></font>
+        <font size="5">
+          <h2>No Classes on May 01, 2024 to May 01, 2025</h2></font
+        >
+        <font size="4">
+          <p>
+            Due to the lack of semestral break, FEU Tech will suspend the classes on <font color = "red"><strong>May 01, 2024 to May 01, 2025</strong></font>. Students
+            are advised to go chill and relax as per this annual break.
+          </p>
+          <p>
+            All offices are on Boracay to assist you in your relaxation and other agendas and will follow regular working operations schedule.
+          </p>
+          <font color = "red" size = "5">
+          <p><b>Happy Vacation! Tamaraws.</b></p>
+        </font>
+        </font>
+        <p align = "right"><i><b>driven by education.</b></i></p>
+        <p align = "right"><i><b>#theSchoolOfInnovation</b></i></p>
+      </center></font
+    >
+  </body>
+</html>
