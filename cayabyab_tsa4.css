@@ -1,1 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
 
+.h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-family: radio canada big;
+    color: green;
+}
+
+.h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: radio canada big;
+}
+
+.p1 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.p2 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.p3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: green;
+}
+
+.a {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: red;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.img {
+    background-image: url(tsa4bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.img2{
+   height: 200px;
+   margin-left: 50px;
+}
+
+.img3{
+    position:fixed;
+    width: 250px;
+    right:100px;
+    bottom: 30px 
+ }
+
+ .img4 {
+    position:fixed;
+    width: 150px;
+    right:50px;
+    bottom: 70px 
+ }
