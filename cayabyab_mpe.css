@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.name {
+    font-family: "Poppins";
+    font-size: 30px;
+    margin: 10px 0;
+    color: white; /* Set the text color to white */
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a subtle shadow */
+}
+
+body {
+    background-image: url(mpebackground.jpg);
+    padding: 0px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} 
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 1100px;
+    border: 5px solid rgb(63, 62, 62); 
+    padding: 20px;
+    background-size: cover;
+}
+
+.card{
+text-align: center;
+padding: 5px;
+margin: 20px;
+border-style: inherit;
+border-radius: 10px;
+display: inline-block;
+width: 300px;
+box-shadow: 5px 5px 5px rgb(0, 0, 0);
+transition: all 1s ease;
+}
+
+.card:hover {
+transform: scale(1.1); 
+box-shadow: 10px 10px 15px rgb(0, 0, 0); 
+}
+
+.pokemon{
+height: 200px;
+filter: drop-shadow(10px 10px 5px black);
+border-radius: 10px;
+}
+
+.pokeball {
+    width: 65px;
+    display: none;
+}
+
+.abra{
+background-color: yellow;
+}
+.bullbasaur{
+background-color: green;
+}
+.charmander{
+background-color: orange;
+}
+.eevee{
+background-color: chocolate;
+}
+.jigglypuff{
+background-color: pink;
+}
+.meowth{
+background-color: gray;
+}
+.pidgey{
+background-color: rgb(180, 110, 29);
+}
+.pikachu{
+background-color: yellow;
+}
+.snorlax{
+background-color: rgb(71, 146, 216);
+}
+.squirtle{
+background-color: rgb(31, 177, 177);
+}
+.venonat{
+background-color: rgb(174, 103, 240);
+}
+.weedle{
+background-color: bisque;
+}
+
+@media (max-width: 1130px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 95vw;
+        height: 180vw;
+        border: 5px rgb(63, 62, 62);
+        border-style: outset;
+        padding: 20px;
+        background-size: cover;
+        position: relative; 
+    }
+
+    .card {
+        text-align: center;
+        padding: 5px;
+        margin: 20px;
+        border-style: inherit;
+        border-radius: 10px;
+        display: flex; 
+        align-items: center; 
+        width: 1400px;
+        height: 100px;
+        box-shadow: 5px 5px 5px rgb(0, 0, 0);
+        position: relative; 
+    }
+
+    .pokemon {
+        height: 50px;
+        filter: drop-shadow(10px 10px 5px black);
+        border-radius: 10px;
+        margin-right: 20px; 
+    }
+    
+
+    .name {
+        flex-grow: 1; 
+    }
+
+    .pokeball {
+        display: inline-block;
+    }
+
+    .card.abra:hover {
+        background-image: url(cardbg.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+
+    .card.bullbasaur:hover {
+        background-image: url(bulba\ bg.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+
+    .card.charmander:hover {
+        background-image: url(charm\ bg.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+
+    .card.eevee:hover {
+        background-image: url(eevee\ bg.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+
+    .card.jigglypuff:hover {
+        background-image: url(jigg\ bg.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+
+    .card.meowth:hover {
+        background-image: url(meowth\ bg.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+
+    .card.pidgey:hover {
+        background-image: url(pidgey\ bg.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+
+    .card.pikachu:hover {
+        background-image: url(pika\ bg.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+
+    .card.snorlax:hover {
+        background-image: url(snorlax\ bg.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+
+    .card.squirtle:hover {
+        background-image: url(squirtle\ bg.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+
+    .card.venonat:hover {
+        background-image: url(venonat\ bg.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+
+    .card.weedle:hover {
+        background-image: url(weedle\ bg.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+}
+
+@media (max-width: 700px){
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 95vw;
+        height: 400vw;
+        border: 1.5vw rgb(63, 62, 62);
+        border-style: solid;
+        padding: 0px;
+        background-size: cover;
+    }
+
+    .card {
+        text-align: center;
+        padding: 5px;
+        margin: 20px;
+        border-style: inherit;
+        border-radius: 5px;
+        display: inline-block;
+        width: 40vw;
+        height: 30vw;
+        box-shadow: 5px 5px 5px rgb(0, 0, 0);
+        position: relative; 
+    }
+
+    .pokemon {
+        height: 130px;
+        width: auto; 
+        filter: drop-shadow(10px 10px 5px black);
+        border-radius: 10px;
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+
+    .name {
+        font-family: "Poppins";
+        font-size: 20px; 
+        margin: 10px 0;
+        color: white;
+        font-weight: bold;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        position: absolute; 
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%); 
+        width: 80%; 
+    }
+
+    .pokeball {
+        display: none; 
+    }
+
+.card.abra:hover {
+    background-image: url(cardbg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.card.bullbasaur:hover {
+    background-image: url(bulba\ bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.card.charmander:hover {
+    background-image: url(charm\ bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.card.eevee:hover {
+    background-image: url(eevee\ bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.card.jigglypuff:hover {
+    background-image: url(jigg\ bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.card.meowth:hover {
+    background-image: url(meowth\ bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.card.pidgey:hover {
+    background-image: url(pidgey\ bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.card.pikachu:hover {
+    background-image: url(pika\ bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.card.snorlax:hover {
+    background-image: url(snorlax\ bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.card.squirtle:hover {
+    background-image: url(squirtle\ bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.card.venonat:hover {
+    background-image: url(venonat\ bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.card.weedle:hover {
+    background-image: url(weedle\ bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+}
