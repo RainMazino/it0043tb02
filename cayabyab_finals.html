@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="cayabyab_finals.css">
+    <script src="https://kit.fontawesome.com/5b74a9f22f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <li><a href="#our-faq-wrapper">FAQ</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>What's Up!</p>
+            <h1>I'M <span> RAINIEL CAYABYAB </span> 
+                <br> PROFESSIONAL 
+                <br> WEB DESIGNER
+            </h1>
+            <img src="renyel.png" alt="portrait" class="portrait">
+        </div>
+    </div>    
+    </div>
+
+   <!-- ----------------------------------------About------------------------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="nielniel.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="title">About Me</h1>
+                    <p> I am a talented, ambitious and hardworking individual,
+                        with broad skills and experience in using technology. I
+                        am also self taught in working around people and in
+                        capitalizing financial expenses.  I am seeking to gain
+                        more knowledge and experience to hone my skills and
+                        capabilities that will get me ready for the possible
+                        career that I will take.
+                    </p>
+    
+                    <div class="sub-title">
+                        <p class="sub-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="sub-links" onclick="opentab('experience')">Experience</p>
+                        <p class="sub-links" onclick="opentab('education')">Education</p>
+                    </div>
+    
+                    <div class="sub-contents active-sub" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web/App Developer</li>
+                            <li><span>UI/UX</span><br>Web/App Designer</li>
+                            <li><span>Programmer</span><br>Full-Stack Developer</li>
+                        </ul>
+                    </div>
+    
+                    <div class="sub-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Recent</span><br>Back-End Programmer in Data Structures Algorithm Inc</li>
+                            <li><span>2023-Recent</span><br>Front-End Programmer in Web Design Inc</li>
+                            <li><span>2023-Recent</span><br>UI/UX Designer in Advance Interface Inc</li>
+                        </ul>
+                    </div>
+    
+                    <div class="sub-contents" id="education">
+                        <ul>
+                            <li><span>2023-Recent</span><br>Far Eastern University Institute of Technology</li>
+                            <li><span>2016-2023</span><br>Villagers Montessori College</li>
+                            <li><span>2015-2016</span><br>Yverdon de Pestalozzi School</li>
+                            <li><span>2012-2014</span><br>Holy Child Academy</li>
+                            <li><span>2010-2012</span><br>College of St. Catherine</li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<!-- ----------------------------------------Services------------------------------------------- -->
+ 
+<div id="services">
+    <div class="container">
+        <h1 class="title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ex delectus ut illum maiores saepe?</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ex delectus ut illum maiores saepe?</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2>Programming</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ex delectus ut illum maiores saepe?</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------------------------Works------------------------------------------- -->
+
+<div id="works">
+    <div class="container">
+        <h1 class="title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="tsa2.jpg">
+                <div class="layer">
+                    <h3>Announcement Layout</h3>
+                    <p>Prototype design for a no classes announcement.</p>
+                    <a href="https://rainmazino.github.io/it0043tb02/cayabyab_tsa2.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="tsa3.jpg">
+                <div class="layer">
+                    <h3>Pokemon Table</h3>
+                    <p>A table designated to pokemon's information.</p>
+                    <a href="https://rainmazino.github.io/it0043tb02/cayabyab_tsa3.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="tsa4.jpg">
+                <div class="layer">
+                    <h3>Refined Announcement</h3>
+                    <p>A refined version of the announcement Layout.</p>
+                    <a href="https://rainmazino.github.io/it0043tb02/cayabyab_tsa4.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="tsa5.jpg">
+                <div class="layer">
+                    <h3>Pokemon Cards</h3>
+                    <p>Pokemon cards that showcases pokemons characteristics.</p>
+                    <a href="https://jaypee1226.github.io/it0043tb02/san%20roque_cayabyab_tsa5"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="tsa6.jpg">
+                <div class="layer">
+                    <h3>Grid Collage</h3>
+                    <p>A grid collage about the anime "Solo Leveling"</p>
+                    <a href="https://jaypee1226.github.io/it0043tb02/san%20roque_cayabyab_tsa6.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="tsa7.jpg">
+                <div class="layer">
+                    <h3>Avatar Website</h3>
+                    <p>Website that contains the show "Avatar"</p>
+                    <a href="https://jaypee1226.github.io/it0043tb02/san%20roque_cayabyab_tsa7.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="tsa8.jpg">
+                <div class="layer">
+                    <h3>Flex-Box Simulator</h3>
+                    <p>A website simulator for flex-box.</p>
+                    <a href="https://jaypee1226.github.io/it0043tb02/san%20roque_cayabyab_tsa8.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="mpe.jpg">
+                <div class="layer">
+                    <h3>Pokemon Icons</h3>
+                    <p>A website that contains pokemon icons.</p>
+                    <a href="https://rainmazino.github.io/it0043tb02/cayabyab_mpe.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------------------------------------Contact------------------------------------------- -->
+
+<div id="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> 202311679@fit.edu.ph</p>
+                <p><i class="fa-solid fa-phone"></i> 012345678910</p>
+                <div class="social-icons">
+                    <a href="https://m.me/rainiel.cayabyab.9"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/ZhiNho10"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/rainyeru?igsh=MWJtY3dvMWNtNHBvdw=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/RainMazino"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Rainiel CV.pdf" download class="btn btn2">Download CV</a>
+            </div>            
+            <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
+
+  <!-- ----------------------------------------FAQ------------------------------------------- -->
+  <div class="our-faq-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+  
+                          <div class="faq-title text-center pb-3">
+                              <h1 class="title">FAQ</h1>
+                          </div>
+                      </div>
+        <div class="col-lg-6">
+          <div class="accordion" id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> What services do you offer as a UI/UX designer? </button>
+                </h5>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body"> As a UI/UX designer, I specialize in creating visually appealing and user-friendly interfaces for websites, mobile apps, and software applications. My services include user research, wireframing, prototyping, visual design, usability testing, and design consultation. </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> What tools do you use for your design work? </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body"> I use a variety of tools to create my designs, including Adobe XD, Sketch, Figma, InVision, and Adobe Creative Suite (Photoshop, Illustrator). For user research and testing, I utilize tools like UserTesting, Hotjar, and Google Analytics. </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> How do you approach a new design project? </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body"> My approach to a new design project involves several key steps: understanding the client's goals and requirements, conducting user research, creating wireframes and prototypes, designing the user interface, and performing usability testing. Collaboration with stakeholders and iterative feedback are integral to my process to ensure the final product meets user needs and business objectives. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="accordion" id="accordion2">
+            <div class="card">
+              <div class="card-header" id="heading4">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4"> Can you provide examples of your past work? </button>
+                </h5>
+              </div>
+              <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion2">
+                <div class="card-body"> Yes, I have a portfolio showcasing my past projects, including websites, mobile apps, and software interfaces. You can view my portfolio on my website [your website link]. Each project includes details about my design process, challenges faced, and the solutions implemented. </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="heading5">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5"> How do you ensure your designs are user-friendly and accessible? </button>
+                </h5>
+              </div>
+              <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion2">
+                <div class="card-body"> I prioritize user-centered design principles in all my work, which involves conducting user research to understand the target audience and their needs. I also follow accessibility guidelines (such as WCAG) to ensure my designs are inclusive for users with disabilities. Usability testing is a crucial part of my process to identify and address any usability issues before the final implementation. </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="heading6">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6"> How do you stay updated with the latest design trends and technologies? </button>
+                </h5>
+              </div>
+              <div id="collapse6" class="collapse show" aria-labelledby="heading6" data-parent="#accordion2">
+                <div class="card-body"> I stay updated with the latest design trends and technologies by regularly reading industry blogs, participating in online forums, and attending design conferences and workshops. I also follow leading designers and design agencies on social media. Continuous learning and experimentation are key to keeping my skills sharp and my designs current. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright"><i class="fa-regular fa-copyright"></i> 2024 Rainiel Cayabyab. All Rights Reserve</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("sub-links");
+    var tabcontents = document.getElementsByClassName("sub-contents");
+    
+    function opentab(tabname){
+        for(var i = 0; i < tablinks.length; i++){
+            tablinks[i].classList.remove("active-link");
+        }
+        for(var i = 0; i < tabcontents.length; i++){
+            tabcontents[i].classList.remove("active-sub");
+        }
+                
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-sub");
+    }
+</script>
+
+<script>
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+</script>
+
+
+</body>
+</html>
