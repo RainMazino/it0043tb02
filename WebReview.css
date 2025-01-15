@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F2F4F7;
+    color: #fff;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+.logo{
+    width: 140px;
+}
+
+.title{
+    font-size: 60px;
+    color: #6ba4ff;
+    font-weight: 600;
+}
+
+.sub-text{
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+------------------------------------------- login ------------------------------------------------
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left {
+    flex-basis: 35%;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.contact-left p i {
+    color: rgb(1, 73, 83);
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.btn.btn2 {
+    display: inline-block;
+    background: #6ba4ff;
+    width: 335px;
+    height: 50px;
+    border-radius: 6px;
+}
+
+.btn3 {
+    display: inline-block;
+    background: #42B72A;
+    width: 335px;
+    height: 50px;
+    border-radius: 6px;
+}
+
+form input, form textarea {
+    width: 335px;
+    border: 0;
+    outline: none;
+    background: #dfdbdb;
+    padding: 20px;
+    margin: 15px 0;
+    color: #000000;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+.login-border div {
+    background: #ffffff;
+    box-shadow: 5px 3px #b9b9b9;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background-color 0.5s, transform 0.5s;
+    width: 500px;
+    height: 325px;
+}
+
